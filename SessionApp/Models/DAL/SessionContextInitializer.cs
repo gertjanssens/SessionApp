@@ -24,6 +24,10 @@ namespace SessionApp.Models.DAL
             session3.Id = 3;
             session3.Name = "Typescript";//angular2 typescript
 
+            context.Sessions.Add(session1);
+            context.Sessions.Add(session2);
+            context.Sessions.Add(session3);
+
             context.SaveChanges();
 
         }

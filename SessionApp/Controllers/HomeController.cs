@@ -14,5 +14,11 @@ namespace SessionApp.Controllers
 
             return View();
         }
+        public ActionResult Inschrijf(int Id)
+        {
+            ViewBag.Title = "Home Page 2";
+            ViewBag.Id = Id;
+            return View();
+        }
     }
 }
